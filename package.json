@@ -1,6 +1,6 @@
 {
   "name": "vue3-intro-step",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于vue3的系统引导步骤组件。",
   "main": "dist/vue3-intro-step.ssr.js",
   "browser": "dist/vue3-intro-step.esm.js",
