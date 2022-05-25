@@ -95,6 +95,15 @@ export default {
                 resolve(true);
               });
             },
+            onNext: () => {
+              return new Promise((resolve) => {
+                // 当页面很长，下一步的内容不在此可视区域内时，可进行下面操作
+                document.body.style.overflow = 'auto';
+                // 让body滚动到顶部
+                window.scrollTo(0,0)
+                resolve(true);
+              });
+            }
           },
           {
             el: '#intro_user',
