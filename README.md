@@ -24,10 +24,15 @@ npm i vue3-intro-step --save
 `main.js`
 
 ```js
-import Vue from 'vue'
+import { createApp } from 'vue'
 import Vue3IntroStep from 'vue3-intro-step'
 
-Vue.component('vue3-intro-step', Vue3IntroStep);
+import App from './App.vue'
+const app = createApp(App);
+
+app.component('Vue3IntroStep', Vue3IntroStep);
+
+app.mount('#app')
 
 ```
 
