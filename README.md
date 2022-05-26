@@ -4,6 +4,12 @@
 > 更加便捷的操作步骤引导。
 > vue2版本的步骤引导组件请移步 [vue-intro-step](https://www.npmjs.com/package/vue-intro-step)
 
+
+> [vue3-intro-step 求⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️](https://github.com/Mjhuu/vue3-intro-step)
+
+![vue-intro-step](https://user-images.githubusercontent.com/45823607/170439254-b1ede5b9-369b-49b1-993b-e006f5fc7034.gif)
+
+
 ### 安装
 
 ```shell
